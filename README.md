@@ -1,2 +1,2 @@
 # sorting-algorithms
-Sorting Algorithms with Python and C++
+Sort Algorithms with Python and C++
