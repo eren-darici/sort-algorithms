@@ -1,7 +1,5 @@
 void InsertionSort(int array[], int lenArray)
 {
-    
-
     for (int i = 0; i < lenArray; i++)
     {
         int key = array[i];
