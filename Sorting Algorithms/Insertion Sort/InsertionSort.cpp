@@ -1,21 +1,18 @@
-#include <iostream>
-using namespace std;
-
-void insertionSort(int array[], int n)
+void InsertionSort(int array[], int lenArray)
 {
-    int i, key, j;
-    for (i = 1; i < n; i++)
-    {
-        key = array[i];
-        j = i - 1;
+    
 
-        while (j >= 0 && key < array[j])
+    for (int i = 0; i < lenArray; i++)
+    {
+        int key = array[i];
+        
+        int j = i - 1;
+
+        while(j >= 0  && key < array[j])
         {
             array[j + 1] = array[j];
-            j = j - 1;
+            j -= 1;
         }
-        
-        array[j +1] = key;
+        array[j + 1] = key;
     }
-
 }
